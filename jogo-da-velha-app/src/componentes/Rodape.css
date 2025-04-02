@@ -1,0 +1,39 @@
+footer.Rodape {
+    margin: 0px;
+    border-top: solid 1px #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex: 0.20;
+    animation: fromBottom .7s .2s backwards;
+    font-family: SuperMario;
+    font-size: 15px;
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,  #093028, #144431);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #093028, #144431);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer.Rodape {
+    margin-left: 0px;
+    text-align: center;
+    color: #fff;
+
+}
+
+footer.Rodape div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #ffffffcc;
+    justify-content: center;
+    
+
+
+}
+footer.Rodape div .Jogada{
+    cursor: pointer;
+    outline: none;
+}
