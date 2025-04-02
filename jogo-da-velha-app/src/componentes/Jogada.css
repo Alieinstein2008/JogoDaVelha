@@ -1,0 +1,5 @@
+div.Jogada{
+    border: solid 1x #dddd;
+    margin-left: 15px;
+    display: inline-block;
+}
