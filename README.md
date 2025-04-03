@@ -17,4 +17,4 @@ Enfoca-se nas funções JSX presentes no arquivo Jogo.jsx, que serve como compon
 ![Screenshot jogo da Velha Preenchido](./jogo-da-velha-app/Preview/JogoDaVelha1.jpg)
 
 ## Para acessar a aplicação clique no link abaixo:
-[Jogo da Velha em ReactJs](https://funny-youtiao-4e886a.netlify.app/)
+[Jogo da Velha em ReactJs](https://jogo-da-velha-reactjs.netlify.app/)
