@@ -8,7 +8,7 @@ Nesse sentido além de ter desenvolvido apenas um simples jogo da velha, adicion
 >[!NOTE]
 Enfoca-se nas funções JSX presentes no arquivo Jogo.jsx, que serve como componente central e essencial no bom funcionamento e dinamicidade da aplicação.
 >
->[Analise o código clicando aqui](./jogo-da-velha/src/componentes/Jogo.jsx)
+>[Analise o código clicando aqui](./jogo-da-velha-app/src/componentes/Jogo.jsx)
 
 ## Screenshots da interface da aplicação web Jogo Da Velha:
 ### Primeiro Acesso:
