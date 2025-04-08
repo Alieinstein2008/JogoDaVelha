@@ -3,47 +3,63 @@
   src: url(./componentes/fonts/super_mario_256/SuperMario256.ttf);
 }
 
-
-
 body,
 div#root {
   margin: 0px;
   padding: 0px;
-  height: 96vh;
-  background-color:#000000;
+  height: 100vh;
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 @keyframes fromTop {
   from {
-      opacity: 0;
-      transform: translateY(-40px)
+    opacity: 0;
+    transform: translateY(-40px)
   }
 
   to {
-      opacity: 1;
-      transform: translateY(0)
+    opacity: 1;
+    transform: translateY(0)
   }
 }
 
 @keyframes fromBottom {
   from {
-      opacity: 0;
-      transform: translateY(30px)
+    opacity: 0;
+    transform: translateY(30px)
   }
 
   to {
-      opacity: 1;
-      transform: translateY(0)
+    opacity: 1;
+    transform: translateY(0)
   }
 }
+
 @keyframes fromLeft {
   from {
-      opacity: 0;
-      transform: translateX(-200px)
+    opacity: 0;
+    transform: translateX(-200px)
   }
 
   to {
-      opacity: 1;
-      transform: translateX(0)
+    opacity: 1;
+    transform: translateX(0)
+  }
+}
+
+@keyframes fromRight {
+  from {
+    opacity: 0;
+    transform: translateX(200px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0)
   }
 }
