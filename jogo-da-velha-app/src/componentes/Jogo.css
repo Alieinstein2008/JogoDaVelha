@@ -1,60 +1,29 @@
 div.Jogo {
-    background-color: #ffffff;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    left: 10px;
-    bottom: 10px;
-    border-radius: 25px;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+    position: relative;
     display: flex;
     flex-direction: column;
-
-
+    place-items: center;
+    overflow: hidden;
 }
 
 div.Tabuleiro {
-    flex: 0.6;
+    flex: 0.5;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-   
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
 }
 
 div.LinhaTabuleiro {
     display: flex;
     justify-content: center;
-
-}
-
-div.Jogo .BoardButton {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-div.Jogo .BoardButton button {
-    background-color: #ee0000;
-    color:white;
-    width: auto;
-    height: 20px;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: SuperMario;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 10px 5px #ee0000;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    animation: fromBottom 1.2s 1.1s backwards;
-    animation-delay: 1.6s;
-
-
-}
-
-div.Jogo .BoardButton button:hover {
-   color: white;
-   transform: translateY(-7px);
- 
+    width: 100%;
+    height: 35%;
 }
