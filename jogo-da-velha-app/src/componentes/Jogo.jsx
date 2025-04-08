@@ -67,7 +67,6 @@ export default function Jogo() {
         setHistoricoJogadas([])
     }
 
-
     return (
         <div className="Jogo">
             <Cabecalho vez={vezJogador}></Cabecalho>
@@ -87,13 +86,10 @@ export default function Jogo() {
                     <Celula valor={estadoTabuleiro[7]} onClick={() => HandleClick(7)}></Celula>
                     <Celula valor={estadoTabuleiro[8]} onClick={() => HandleClick(8)}></Celula>
                 </div>
-                <div className="BoardButton">
-                    <button onClick={() => ReiniciarJogo()}>Reiniciar</button>
-                </div>
 
             </div>
 
-            <Rodape jogadas={historicoJogadas} FuncaoRetorno={RetornarJogada}></Rodape>
+            <Rodape jogadas={historicoJogadas} FuncaoRetorno={RetornarJogada} FuncaoReiniciar={ReiniciarJogo}></Rodape>
         </div>
     );
 }
